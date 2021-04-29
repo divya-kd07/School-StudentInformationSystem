@@ -8,6 +8,12 @@ package in.divy2624;
  *
  */
 public class Login {
+	
+	/**
+	 * To create a UserLogin method for Login purpose.
+	 * To check the Login process using these variables emailId,userPassword,MobileNumber.
+	 * 
+	 */
 	public static void UserLogin(){
 	System.out.println("************************************STUDNET/PARENT LOGIN PAGE**************************************");
 	String emailId = "divya@gmail.com";
@@ -26,18 +32,18 @@ public class Login {
         			 System.out.println("ENTER YOUR MOBILE NUMBER : "+mobileNumber);//if you or anyone   login your account each and every time,the alert message send your mobile number
         		 }
         		 else {
-        			 System.out.println("INVALID MOILE NUMBER CREDENTIALS      PLEASE ENTER YOUR CORRECT MOBILE NUMBER ");
+        			 System.out.println("INVALID MOILE NUMBER CREDENTIALS\nPLEASE ENTER YOUR CORRECT MOBILE NUMBER ");
         		 }
         }
     	else
     	{
-    		System.out.println("INVALID PASSWORD CREDENTIALS       PLEASE ENTER YOUR CORRECT PASSWORD");
+    		System.out.println("INVALID PASSWORD CREDENTIALS\nPLEASE ENTER YOUR CORRECT PASSWORD");
     	}
     			 
     }
     else
     {
-        System.out.print("INVALID EMAIL-ID CREDENTIALS         PLEASE ENTER YOUR CORRECT EMAIL-ID");
+        System.out.print("INVALID EMAIL-ID CREDENTIALS\nPLEASE ENTER YOUR CORRECT EMAIL-ID");
     }
     
     
