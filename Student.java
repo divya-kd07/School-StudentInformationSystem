@@ -11,7 +11,7 @@ import java.time.LocalDate;
  */
 public class Student {
 	
-	public  String name1;
+	public String name1;
 	public String name2;
 	public String name3;
 	public String emailId;
@@ -25,5 +25,12 @@ public class Student {
 	public Long parentMobileNumber;
 	public LocalDate dateOfBirth;
 	public LocalDate dateOfJoining;
+	public int tamil;
+	public int english;
+	public int mathamatics;
+	public int science;
+	public int social;
 	
 }
+
+

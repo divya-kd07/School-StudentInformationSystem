@@ -42,12 +42,31 @@ public class SchoolStudentInformationTest {
 		assertEquals(false,userEmail);
 	}
 
-	//task33:To check the Login process.
+	//task3:To check the Login process.
 	
 	@Test
 	public void test4() 
 	{
 		Login.UserLogin();
+		
+	}
+	
+
+	//task 4: Passing average for getting the grade.
+	
+	@Test
+	public void test5() 
+	{
+		int average=65;
+		String grade=GradeMarks.getGrade(average);
+		assertEquals("C",grade);
+	}
+	
+	@Test
+	public void test6() 
+	{
+		String grade="B";
+		GradeReview.Comment(grade);
 		
 	}
 	
